@@ -1,0 +1,45 @@
+﻿# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+next-env.d.ts
+
+# Vercel
+.vercel/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.mp4
+*.mov
+
+# Duplicates / typos
+next.config,js.txt
+next.config.ts
+postcss.config.mjs
+posttail.config.js
+postwind.config.js
+
+# Separate apps (each has its own repo)
+mrktforge-socket/
+backend/
+
+# AI tool files
+AGENTS.md
+CLAUDE.md
