@@ -5,7 +5,7 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>Privacy Policy · Market Forger</title>
+        <title>Privacy Policy · MarketForge</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
       </Head>
 
@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
           {/* Brand header */}
           <div className="brand">
             <i className="fas fa-hammer"></i>
-            <h1>Market Forger</h1>
+            <h1>MarketForge</h1>
             <span className="badge-ipo">PRIVACY</span>
           </div>
 
@@ -22,25 +22,25 @@ export default function PrivacyPolicy() {
           <div className="policy-card">
             <h2><i className="fas fa-shield-halved"></i> Privacy Policy</h2>
             <div className="last-updated">
-              <i className="fas fa-calendar-alt"></i> Last updated: June 12, 2025
+              <i className="fas fa-calendar-alt"></i> Last updated: October 22, 2026
             </div>
 
             {/* Intro */}
             <div className="policy-section">
               <p>
-                Market Forger ("we", "our", "us") operates the Market Forger paper trading terminal and related services 
+                MarketForge ("we", "our", "us") operates the MarketForge trading terminal and related services 
                 (the "Platform"). This Privacy Policy explains how we collect, use, and protect your information when 
-                you use our Platform. By using Market Forger, you agree to the practices described in this policy.
+                you use our Platform. By using MarketForge, you agree to the practices described in this policy.
               </p>
             </div>
 
             {/* 1. Information we collect */}
             <div className="policy-section">
               <h3><i className="fas fa-database"></i> 1. Information We Collect</h3>
-              <p><strong>Paper Trading Data.</strong> We store the information you create while using the Platform, including:</p>
+              <p><strong>Trading Data.</strong> We store the information you create while using the Platform, including:</p>
               <ul>
                 <li><i className="fas fa-circle"></i> Simulated trades, positions, and holdings</li>
-                <li><i className="fas fa-circle"></i> Paper fund balances and FRGE share balances</li>
+                <li><i className="fas fa-circle"></i> Paper fund balances and deposited fund balances</li>
                 <li><i className="fas fa-circle"></i> Activity logs and trade history within your session</li>
               </ul>
               <p style={{ marginTop: '1rem' }}><strong>Automatically Collected Information.</strong> We may collect limited technical data such as:</p>
@@ -51,7 +51,7 @@ export default function PrivacyPolicy() {
                 <li><i className="fas fa-circle"></i> Usage analytics (pages visited, features used)</li>
               </ul>
               <div className="highlight-box">
-                <p><i className="fas fa-info-circle"></i> <strong>No real money or brokerage accounts.</strong> Market Forger is a simulation. We do not collect payment information, bank details, or connect to real brokerage accounts.</p>
+                <p><i className="fas fa-info-circle"></i> <strong>Real Funds & Paper Trading.</strong> MarketForge offers both simulated paper trading and the ability to trade with real funds. If you choose to link a real trading account or deposit real funds, our third-party payment and brokerage partners will process that information under their own privacy policies.</p>
               </div>
             </div>
 
@@ -60,9 +60,9 @@ export default function PrivacyPolicy() {
               <h3><i className="fas fa-gear"></i> 2. How We Use Your Information</h3>
               <p>We use the information collected to:</p>
               <ul>
-                <li><i className="fas fa-circle"></i> Operate, maintain, and improve the paper trading terminal</li>
-                <li><i className="fas fa-circle"></i> Display your paper funds, FRGE shares, and trade history</li>
-                <li><i className="fas fa-circle"></i> Calculate and issue FRGE shares for profitable simulated trades</li>
+                <li><i className="fas fa-circle"></i> Operate, maintain, and improve the trading terminal</li>
+                <li><i className="fas fa-circle"></i> Display your paper funds, deposited funds, and trade history</li>
+                <li><i className="fas fa-circle"></i> Process transactions and manage your account balance</li>
                 <li><i className="fas fa-circle"></i> Monitor usage and prevent abuse or fraudulent activity</li>
                 <li><i className="fas fa-circle"></i> Communicate important updates or changes to the Platform</li>
               </ul>
@@ -72,12 +72,12 @@ export default function PrivacyPolicy() {
             <div className="policy-section">
               <h3><i className="fas fa-lock"></i> 3. Data Storage & Security</h3>
               <p>
-                Your paper trading data is stored locally in your browser session (or via secure server storage where applicable). 
+                Your trading data is stored locally in your browser session (or via secure server storage where applicable). 
                 We implement reasonable technical and organizational measures to protect your information. However, no method of 
                 electronic storage or transmission is 100% secure, and we cannot guarantee absolute security.
               </p>
               <p>
-                <strong>Session Data:</strong> Your paper funds, holdings, and FRGE shares are maintained for the duration of your 
+                <strong>Session Data:</strong> Your paper funds and holdings are maintained for the duration of your 
                 session. Resetting the terminal clears this data. If you close your browser or refresh the page, your session may 
                 reset depending on the configuration.
               </p>
@@ -89,7 +89,7 @@ export default function PrivacyPolicy() {
               <p>
                 We do <strong>not</strong> sell, rent, or trade your personal information to third parties. We may share 
                 aggregated, anonymized data for analytics or platform improvement purposes. We may also disclose information 
-                if required by law or to protect the rights and safety of Market Forger, our users, or the public.
+                if required by law or to protect the rights and safety of MarketForge, our users, or the public.
               </p>
             </div>
 
@@ -97,7 +97,7 @@ export default function PrivacyPolicy() {
             <div className="policy-section">
               <h3><i className="fas fa-cookie-bite"></i> 5. Cookies & Similar Technologies</h3>
               <p>
-                Market Forger may use cookies or local storage to remember your session state, preferences, and to analyze 
+                MarketForge may use cookies or local storage to remember your session state, preferences, and to analyze 
                 Platform usage. You can disable cookies in your browser settings, but some features of the Platform may not 
                 function properly as a result.
               </p>
@@ -107,7 +107,7 @@ export default function PrivacyPolicy() {
             <div className="policy-section">
               <h3><i className="fas fa-arrow-up-right-from-square"></i> 6. Third-Party Services</h3>
               <p>
-                The Platform may include links to third-party websites (e.g., Font Awesome for icons, analytics providers). 
+                The Platform may include links to third-party websites (e.g., Font Awesome for icons, payment processors, analytics providers). 
                 We are not responsible for the privacy practices of those third parties. We encourage you to review their 
                 privacy policies before providing any information.
               </p>
@@ -117,7 +117,7 @@ export default function PrivacyPolicy() {
             <div className="policy-section">
               <h3><i className="fas fa-child"></i> 7. Children's Privacy</h3>
               <p>
-                Market Forger is not intended for children under 13 years of age. We do not knowingly collect personal 
+                MarketForge is not intended for children under 13 years of age. We do not knowingly collect personal 
                 information from children under 13. If you believe we have inadvertently collected such information, 
                 please contact us so we can delete it.
               </p>
@@ -128,7 +128,7 @@ export default function PrivacyPolicy() {
               <h3><i className="fas fa-toggle-on"></i> 8. Your Choices</h3>
               <p>
                 You may reset your paper trading account at any time using the "Reset paper" button on the terminal. 
-                This clears all simulated holdings, paper funds, FRGE shares, and activity history. If you have questions 
+                This clears all simulated holdings, paper funds, and activity history. If you have questions 
                 about your data, you can contact us using the details below.
               </p>
             </div>
@@ -157,12 +157,12 @@ export default function PrivacyPolicy() {
             {/* Footer note */}
             <div className="footer-note">
               <i className="fas fa-shield-halved" style={{ marginRight: '0.4rem' }}></i>
-              Market Forger is a simulated paper trading environment. No real funds or securities are involved.
-              <br/>© 2025 Market Forger. All rights reserved.
+              MarketForge is a trading environment. Ensure you understand the risks of trading with real funds.
+              <br/>© 2026 MarketForge. All rights reserved.
             </div>
           </div>
 
-          {/* Back link using Next.js Link component */}
+          {/* Back link */}
           <Link href="/" className="back-link">
             <i className="fas fa-arrow-left"></i> Back to Terminal
           </Link>
